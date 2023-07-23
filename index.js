@@ -6,6 +6,10 @@ const userModel = require('./models/user')
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+
+//RUTAS
+
+
 const port = 3001;
 
 const database = async () => {
